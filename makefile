@@ -52,7 +52,7 @@ cll=$(invoke_link) /NOLOGO $(lib_a) $(lib_b) $(lib_c)
 
 #=OPTIONS=======================================================================
 CC=
-LINKER=$(cll)
+LINKER=
 
 LIBS=
 
