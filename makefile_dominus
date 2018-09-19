@@ -76,7 +76,7 @@ LIBS=
 EXE=
 
 #=OTHER OPTIONS=================================================================
-COMPILED_EXTENSION=
+CCEXTENSION=
 
 #=FLAGS=========================================================================
 CL_FLAGS=
@@ -109,7 +109,7 @@ $(EXE) : $(OBJS) $(EXTOBJS)
 	$(LINK_STATUS)	
 	$(RESET)
 
-%.$(OBJEXTENSION) : $(SRCDIR)%.$(COMPILED_EXTENSION)
+%.$(OBJEXTENSION) : $(SRCDIR)%.$(CCEXTENSION)
 	$(BT)
 	$(BOLD)
 	$(BUILD)
