@@ -79,7 +79,7 @@ EXE=
 CCEXTENSION=
 
 #=FLAGS=========================================================================
-CL_FLAGS=
+CL_FLAGS=/WX /W3
 GNU_FLAGS = -c -O -Wall -Wextra -ansi -pedantic -Wunused -Werror -std=c++11
 
 #=BUILD=========================================================================
